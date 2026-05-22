@@ -10,6 +10,14 @@ html {
 @keyframes fadeUp {
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(0);.portfolio-grid img {
+  transition: all 0.4s ease;
+  border-radius: 10px;
+}
+
+.portfolio-grid img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
   }
 }
