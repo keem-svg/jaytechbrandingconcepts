@@ -59,5 +59,14 @@ button:hover, .btn-primary:hover, .btn-secondary:hover {
   transform: translateY(-10px);
   box-shadow: 0 15px 30px rgba(0,0,0,0.2);
 }
- }
+ .scroll {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease;
+}
+
+.scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
 }
