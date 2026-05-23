@@ -69,4 +69,14 @@ button:hover, .btn-primary:hover, .btn-secondary:hover {
   opacity: 1;
   transform: translateY(0);
 }
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px;
+border-radius:50%;
+font-size:24px;
+z-index:999;
 }
